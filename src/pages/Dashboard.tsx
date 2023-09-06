@@ -5,7 +5,7 @@ import { ConversationDetails } from '../components/ConversationDetails';
 import { ConversationList } from '../components/ConversationList';
 import { useEffect, useState } from 'react';
 import { User as BotpressUser } from '@botpress/client/dist/gen';
-import defaultAvatarImg from '../assets/jutaicon.png';
+
 import '../style.css';
 
 
