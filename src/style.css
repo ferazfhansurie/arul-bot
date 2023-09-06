@@ -12,7 +12,12 @@
   html {
     font-size: 16px;
   }
-  
+  .centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
   /* Body styles */
   body {
     font-family: 'Quicksand', sans-serif;

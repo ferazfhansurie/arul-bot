@@ -103,12 +103,13 @@ export const Dashboard = () => {
 
 return (
   <div className="dashboard-container">
+     <div className="centered-text">
+    <span className="text-sm text-white-400">
+      {"Ean Bot"}
+    </span>
+  </div>
     <div className="search-container">
-      <img
-        src={defaultAvatarImg}
-        alt="Default avatar"
-        className="h-12"
-      />
+   
       <input
         type="text"
         value={searchQuery}
